@@ -1,3 +1,9 @@
+/*
+Jajuan Monroe
+Wikipedia Viewer
+August 2017
+*/
+
 $(document).ready(function(){
     
   //When search button is clicked, take user input, use wikipedia api and output the results in a list.
