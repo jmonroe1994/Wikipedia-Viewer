@@ -1,0 +1,43 @@
+body{
+  background-color: #D3D3D3;
+  font-family: Trebuchet MS;
+}
+
+img{
+  margin-top: 20px;
+}
+
+button{
+  border-style: solid;
+  border-color: black;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #008B8B;
+}
+
+#search{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 40px;
+}
+
+#results{
+  margin-top: 15px;
+  padding: 5px;
+}
+
+#results div{
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.title{
+  font-size: 25px;
+}
+
+.box{
+  border: solid;
+  border-radius: 10px;
+}

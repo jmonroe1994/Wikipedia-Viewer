@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="text-center">
+  <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><img class="img-fluid" src="http://mycdn.technologyvista.netdna-cdn.com/wp-content/uploads/2015/12/wikipedia-logo.jpg" target="_blank" alt="Random Wiki Article"></a>
+</div>
+
+  <p class="responsive-text text-center"><em>Click the title above to search a random Wikipedia article.</em></p>
+  
+  <!--Enter in a topic to search for on Wikipedia-->
+  
+<div>
+  <input id="search" class="form-control d-inline" type="search "placeholder="Search">
+  
+  <button id="searchBtn" type="submit" class="btn btn-default d-inline"><i class="fa fa-search"></i></button>
+</div>
+
+  <!--Use this to list the results-->
+<div id="results"></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
